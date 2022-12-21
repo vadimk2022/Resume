@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
 
-    <form action="/forms.html" method="post">
-        User <input 
-        type="text" 
-        required
-        name="user" 
-        placeholder="Enter the user name" /></br />
-        Password <input type="password" name="password" placeholder="Enter the password" /><br />
+    <form action="/forms.html" method="post" title="Hi!">
+        <label>
+            User <input 
+            type="text" 
+            required
+            name="user" 
+            placeholder="Enter the user name" /></br />
+        </label>
+
+        
+        <label for="form-password">Password</label>
+        <input 
+            id="form-password" 
+            type="password"
+            name="password" 
+            placeholder="Enter the password" /><br />
+        
+            <br />
+            <fieldset>
+                <legend>Keep !</legend>
+                <label for="form checkbox">Keep login in:</label>
+            </fieldset>
+        <input type="checkbox" id="form checkbox" />
+
+            <br />
+            <br />
+
+        <select name="type" size="3" multiple>
+            <option value="type_1">Type 1</option>
+            <option value="type_2">Type 2</option>
+            <option value="type_3">Type 3</option>
+        </select>
+
+
         <input type="submit" value="Login" />
     </form>
+
     
 </body>
 </html>
