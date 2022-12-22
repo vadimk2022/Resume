@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms Hire me</title>
 </head>
+
 <body>
     <header>
         <h1>Hire me</h1>
     </header>
-<main>
-    <section>
-        <h2>Contact information:</h2>
+    <main>
+        <section>
+            <table border="1" cellspacing="0" cellpadding="10px"">
+            <caption style=" text-align: left">Contact information:</caption>
+                <thead>
+                    <tr>
+                        <th style="text-align: left">Phone</th>
+                        <td>+380937750043</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th style="text-align: left">
+                            Address
+                        </th>
+                        <td>
+                            Somewere in Ukraine
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-        
+            <form action="./Hire_me.html" method="get" name="Contact">
+                <fieldset>
+                    <legend>Contact form</legend>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="contact-email">E-mail<strong style="color: red">*</strong>:</label>
+                                </td>
+                                <td>
+                                    <input required id="contact-email" type="email" name="email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="text-description">Description:</label>
+                                </td>
 
 
-
-
-
-
-
-    </section>
-
-
-
-
-</main>
-
-
-
-
-
-
+                                <td>
+                                    <textarea name="text-description" id="text-description" cols="30"
+                                        rows="10"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Work type:</label>
+                                </td>
+                                <td>
+                                    <select required name="expiration month">
+                                        <option value="Office work">Office work</option>
+                                        <option value="Distant work">Distant work</option>
+                                        <option value="One-time project">One-time project</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="Hire me">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
