@@ -1,3 +1,31 @@
-.text-color {
+* {
     color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-name {
+    font-weight: bold;
+}
+
+.name-style {
+    font-style: oblique;
+}
+
+.tabtext {
+    text-transform: uppercase;
+}
+.link {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #005;
+}
+
+
+
+.link:active {
+    color: #005;
+    text-decoration: underline;
 }
