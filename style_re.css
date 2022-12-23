@@ -1,31 +1,50 @@
+
+/* колір всього тексту на сторінці має бути #333; */
+/* шрифт має бути без засічок (Arial, Helvetica, sans-serif); */
 * {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
+    style="text-decoration: none"
 }
 
+/* текст з позицією має бути жирний засобами CSS; */
 .text-name {
     font-weight: bold;
 }
 
+/* імʼя має бути нахиленим; */
 .name-style {
     font-style: oblique;
 }
 
+/* заголовки в таблиці мають бути написаними великими літерами; */
 .tabtext {
     text-transform: uppercase;
 }
-.link {
+
+/* в списку з вміннями показники мають бути квадратними. */
+li {
+    list-style-type: square;
+}
+
+/* посилання мають мати колір #00f та бути підкресленими;
+
+відвідані посилання мають мати колір #005 та мають бути підкресленими;
+
+при наведенні на посилання підкреслення має пропасти; */
+
+a:link {
     color: #00f;
     text-decoration: underline;
 }
 
-.link:hover {
+a:hover {
     color: #005;
+    text-decoration: none;
 }
-
-
-
-.link:active {
+a:active {
     color: #005;
     text-decoration: underline;
-}
+ }
+
+
