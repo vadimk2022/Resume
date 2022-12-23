@@ -20,7 +20,7 @@ li {
 }
 
 
-.link {
+.link:link {
     color: #00f;
     text-decoration: underline;
 }
