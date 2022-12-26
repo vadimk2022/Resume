@@ -24,12 +24,12 @@ li {
     color: #00f;
 }
 
-.link:visited {
-    text-decoration: underline;
-    color: #005;
-}
-
 .link:hover {
     text-decoration: none;
     color: #00f;
+}
+
+.link:visited {
+    text-decoration: underline;
+    color: #005;
 }
