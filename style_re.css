@@ -3,6 +3,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1.name-style, 
+h2.text-name, 
+.info-skill,
+.info-achievements {
+    border-bottom: 6px;
+    border-style:none none ridge none;
+    border-color: #DBF6EE #EBFAF5;
+    width: 40%;
+}
+
 .text-name {
     font-weight: bold;
 }
