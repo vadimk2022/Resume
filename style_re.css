@@ -3,14 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1.name-style, 
-h2.text-name, 
-.info-skill,
-.info-achievements {
-    border-bottom: 6px;
+.underlined {
+    border-bottom: 4px;
     border-style:none none ridge none;
-    border-color: #DBF6EE #EBFAF5;
-    width: 40%;
+    border-color: #b3f5ec;
+    width: 70%;                                                                                                                                                                                          
+}                                                                                                                       
+
+figure {
+    border: 2px solid gray;
 }
 
 .text-name {
