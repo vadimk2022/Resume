@@ -4,19 +4,18 @@
 }
 
 .underlined {
-    border-bottom: 4px;
-    border-style:none none ridge none;
-    border-color: #b3f5ec;
-    width: 70%;                                                                                                                                                                                          
+    border-bottom: 2px;
+    border-style:none none solid none;
+    border-color: #b7b7b7;
+    width: 50%;                                                                                                                                                                                          
 }                                                                                                                       
 
 figure {
     width: 250px;
-    height: 323px;
-    border: 2px solid black;
-    background-color: white;
+    height: 320px;
+    border: 2px solid #b7b7b7;
     padding: 10px;
-    margin: 5px;
+    margin-left: 0px;
 }
 
 th {
