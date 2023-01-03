@@ -10,13 +10,16 @@
     width: 50%;
 }
 
+
+
 figure {
-    width: 250px;
-    height: 320px;
+    float: right;
     border: 2px solid #b7b7b7;
     padding: 10px;
     margin-left: 0px;
 }
+
+
 
 th {
     background-color: rgb(187, 238, 223);
