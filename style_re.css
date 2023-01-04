@@ -1,8 +1,10 @@
+/* загальні властивості */
 * {
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* підкреслення */
 .underlined {
     border-bottom: 2px;
     border-style: none none solid none;
@@ -10,19 +12,37 @@
     width: 50%;
 }
 
-
-
+/* зміна розміру фотографії */
 .photo {
     width: 100px;
     height: 100px;
 }
 
-figure {
-    float: right;
-    border: 2px solid #b7b7b7;
-    padding: 10px;
+/* форматування тексту Ім'я Прізвище */
+.text-name {
+    font-weight: bold;
+    font-style: oblique;
 }
 
+/* рамка до фотографії  */
+figure {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 2px solid #b7b7b7;
+    padding: 10px;
+ }
+
+/* кнопка Hire me */
+.button {
+    display: inline;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: oblique;
+ }
+
+ /* заливка фону таблиці */
 th {
     background-color: rgb(187, 238, 223);
 }
@@ -31,32 +51,23 @@ td {
     background-color: rgb(223, 235, 231);
 }
 
-.text-name {
-    font-weight: bold;
-}
-
-.name-style {
-    font-style: oblique;
-}
-
+/* форматування тексту у таблиці */
 .tabl-text {
     text-transform: uppercase;
 }
-
 li {
     list-style-type: square;
 }
 
+/* форматування лінків у таблиці */
 .link:link {
     text-decoration: underline;
     color: #00f;
 }
-
 .link:hover {
     text-decoration: none;
     color: #00f;
 }
-
 .link:visited {
     text-decoration: underline;
     color: #005;
