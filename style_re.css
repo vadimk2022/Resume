@@ -1,84 +1,84 @@
 /* загальні властивості */
 * {
-    color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* підкреслення-30% */
 .underlined {
-    border-bottom: 2px;
-    border-style: none none solid none;
-    border-color: #b7b7b7;
-    width: 30%;
+  border-bottom: 2px;
+  border-style: none none solid none;
+  border-color: #b7b7b7;
+  width: 30%;
 }
 
- /* зміна розміру фотографії, обтікання */
+/* зміна розміру фотографії, обтікання */
 .photo {
-    display: inline;
-    width: 100px;
-    height: 100px;
+  display: inline;
+  width: 100px;
+  height: 100px;
 }
 
 /* форматування тексту Ім'я Прізвище */
 .name {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: oblique;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 /* форматування тексту info */
 .info {
-    font-size: 20px;
-    font-weight: bold;
-    font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 /* рамка до фотографії  */
 .my-photo {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #b7b7b7;
-    padding: 10px;
-    float: right;
- }
+  width: 100px;
+  height: 100px;
+  border: 2px solid #b7b7b7;
+  padding: 10px;
+  float: right;
+}
 
- /* довжина блоку header */
- .header {
-    width:1200px;
-    height: auto;
+/* довжина блоку header */
+.header {
+  width: 1200px;
+  height: auto;
 }
 
 .table-info {
-    width: 1200px;
-    height: auto    ;
+  width: 1200px;
+  height: auto;
 }
 
- /* заливка фону таблиці */
+/* заливка фону таблиці */
 th {
-    background-color: rgb(187, 238, 223);
+  background-color: rgb(187, 238, 223);
 }
 td {
-    background-color: rgb(223, 235, 231);
+  background-color: rgb(223, 235, 231);
 }
 
 /* форматування тексту у таблиці */
 .tabl-text {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 li {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 /* форматування лінків у таблиці */
 .link:link {
-    text-decoration: underline;
-    color: #00f;
+  text-decoration: underline;
+  color: #00f;
 }
 .link:hover {
-    text-decoration: none;
-    color: #00f;
+  text-decoration: none;
+  color: #00f;
 }
 .link:visited {
-    text-decoration: underline;
-    color: #005;
+  text-decoration: underline;
+  color: #005;
 }
