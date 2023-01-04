@@ -4,49 +4,59 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* підкреслення */
+/* підкреслення-30% */
 .underlined {
     border-bottom: 2px;
     border-style: none none solid none;
     border-color: #b7b7b7;
-    width: 50%;
+    width: 30%;
 }
 
-/* зміна розміру фотографії */
+ /* зміна розміру фотографії, обтікання */
 .photo {
+    display: inline;
     width: 100px;
     height: 100px;
 }
 
 /* форматування тексту Ім'я Прізвище */
-.text-name {
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* форматування тексту info */
+.info {
+    font-size: 20px;
     font-weight: bold;
     font-style: oblique;
 }
 
 /* рамка до фотографії  */
-figure {
+.my-photo {
     width: 100px;
     height: 100px;
-    display: block;
     border: 2px solid #b7b7b7;
     padding: 10px;
+    float: right;
  }
 
-/* кнопка Hire me */
-.button {
-    display: inline;
-    text-decoration: none;
-    font-size: 1.8em;
-    font-weight: bold;
-    font-style: oblique;
- }
+ /* довжина блоку header */
+ .header {
+    width:1200px;
+    height: auto;
+}
+
+.table-info {
+    width: 1200px;
+    height: auto    ;
+}
 
  /* заливка фону таблиці */
 th {
     background-color: rgb(187, 238, 223);
 }
-
 td {
     background-color: rgb(223, 235, 231);
 }
