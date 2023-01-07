@@ -63,7 +63,7 @@ td {
 .tabl-text {
   text-transform: uppercase;
 }
-li {
+ul.li {
   list-style-type: square;
 }
 /* форматування лінків у таблиці */
