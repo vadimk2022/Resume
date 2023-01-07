@@ -3,27 +3,23 @@
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* підкреслення */
 .underlined {
   border-bottom: 2px;
   border-style: none none solid none;
   border-color: #b7b7b7;
   width: 500px;
-  }
-
+}
 /* довжина блоку header */
 .header {
   width: 1000px;
   height: auto;
-  }
-
+}
 /* встановлення розміру фотографії */
-.photo {
+.my-photo {
   width: 100px;
   height: 100px;
 }
-
 /* форматування тексту Ім'я Прізвище */
 .name {
   display: inline;
@@ -33,7 +29,6 @@
   float: left;
   padding-top: 20px;
 }
-
 /* форматування тексту info */
 .info {
   display: inline;
@@ -42,9 +37,8 @@
   font-weight: bold;
   padding-top: 20px;
 }
-
 /* рамка до фотографії  */
-.my-photo {
+.photo {
   display: inline;
   width: 100px;
   height: 100px;
@@ -52,21 +46,19 @@
   padding: 10px;
   float: right;
 }
-
 /* розмір таблиці */
 .table-info {
   width: 1000px;
   height: auto;
 }
-
 /* заливка фону таблиці */
 th {
+  text-align: left;
   background-color: rgb(187, 238, 223);
 }
 td {
   background-color: rgb(223, 235, 231);
 }
-
 /* форматування тексту у таблиці */
 .tabl-text {
   text-transform: uppercase;
@@ -74,7 +66,6 @@ td {
 li {
   list-style-type: square;
 }
-
 /* форматування лінків у таблиці */
 .link:link {
   text-decoration: underline;
