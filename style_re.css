@@ -1,13 +1,13 @@
 * {
     color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .underlined {
     border-bottom: 2px;
     border-style: none none solid none;
     border-color: #b7b7b7;
-    width: 50%;
+    width: 40%;
 }
 
 figure {
@@ -20,6 +20,8 @@ figure {
 
 th {
     background-color: rgb(187, 238, 223);
+    text-align: left;
+    font-weight: 800;
 }
 
 td {
@@ -27,7 +29,9 @@ td {
 }
 
 .text-name {
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;x
 }
 
 .name-style {
@@ -38,7 +42,7 @@ td {
     text-transform: uppercase;
 }
 
-li {
+.skills {
     list-style-type: square;
 }
 
